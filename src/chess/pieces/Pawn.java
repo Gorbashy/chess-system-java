@@ -54,8 +54,7 @@ public class Pawn extends ChessPiece {
 						mat[right.getRow() - 1][right.getColumn()] = true;
 					}
 				}
-			
-			
+		
 		}			
 		else {
 			p.setValues(position.getRow() + 1, position.getColumn());
